@@ -1,20 +1,49 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Playfair+Display:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Playfair+Display:wght@500&family=Raleway:wght@800&display=swap');
+@media (max-width: 576px){
+    nav {
+        width: 0px;
+    }
+    main {
+        width: 100%;
+    }
+}
 
 *{margin: 0px; padding: 0px;}
 body {
     background-color: #770202;
 }
-nav#menu {
-    background-color: #E14848;
+header, main, footer {
+    float: right;
+    width: calc(100% - 250px);
+    transition: .3s;
+}
+nav {
+    background-color: #e148483f;
     width: 250px;
     height: 100%;
     box-shadow: 1px 0px 3px #5C1D1D;
     float: left;
     position: fixed;
+    transition: .3s;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
-header, main, footer {
-    float: right;
-    width: calc(100% - 250px);
+#menu {
+    margin-top: 50px;
+}
+#menu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: .3s;
+}
+#menu a label {
+    margin-left: 20px;
+}
+#menu a:hover {
+    background-color: #770202;
+    border-left: 5px solid #ffffff;
 }
