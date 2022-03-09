@@ -20,7 +20,7 @@ header, main, footer {
     transition: .3s;
 }
 nav {
-    background-color: #e148483f;
+    background-color: rgba(0, 0, 0, 0.418);
     width: 250px;
     height: 100%;
     box-shadow: 1px 0px 3px #5C1D1D;
@@ -36,7 +36,7 @@ nav {
 #menu a {
     display: block;
     text-decoration: none;
-    color: black;
+    color: #ffffff;
     padding: 5px;
     transition: .3s;
 }
@@ -46,4 +46,5 @@ nav {
 #menu a:hover {
     background-color: #770202;
     border-left: 5px solid #ffffff;
+    font-weight: bold;
 }
