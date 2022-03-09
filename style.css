@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Playfair+Display:wght@500&family=Raleway:wght@800&display=swap');
+
+*{margin: 0px; padding: 0px;}
+body {
+    background-color: #770202;
+}
+nav#menu {
+    background-color: #E14848;
+    width: 250px;
+    height: 100%;
+    box-shadow: 1px 0px 3px #5C1D1D;
+    float: left;
+    position: fixed;
+}
+header, main, footer {
+    float: right;
+    width: calc(100% - 250px);
+}
