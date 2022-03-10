@@ -7,6 +7,9 @@
     }
 }
 
+
+
+
 p {
     font: normal 16px arial;
     color: #ffffff;
@@ -69,7 +72,7 @@ header p {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
 }
-div#texto-principal {
+div#texto-principal h1, p {
     text-align: center;
 }
 #imagem-principal {
@@ -78,6 +81,10 @@ div#texto-principal {
     background-position:  center center;
     background-size: cover;
     background-attachment: fixed;
+}
+/*FORMATAÇÃO DO VOLTAR E AVANÇAR*/
+div#proximo a {
+    color: #000000;
 }
 /*FORMATAÇÃO PÁGINA PRINCIPAL*/
 section#area-branca {
