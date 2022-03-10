@@ -76,3 +76,45 @@ div#texto-principal {
     background-size: cover;
     background-attachment: fixed;
 }
+/*FORMATAÇÃO PÁGINA PRINCIPAL*/
+section#area-branca {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 3px 5px 4px #00000088;
+    padding: 20px;
+}
+#area-branca p {
+    color: #000000;
+}
+#area-branca-principal p {
+    line-height: 2em;
+}
+h1.principal {
+    font-size: 65px;
+    text-align: center;
+    margin: 20px 0px;
+}
+article#explicacao-do-site p {
+    text-align: center;
+    padding: 10px;
+}
+article#nossa-historia p {
+    text-align: justify;
+    text-indent: 60px;
+    padding: 25px 0px 10px 0px;
+}
+#fotos-dos-padrinhos figure {
+
+    margin: auto;
+}
+.dama {
+    text-align: center;
+}
+img.uma-foto {
+    display: block;
+    margin: auto;
+    width: 550px;
+}
+h1.principal {
+    margin: 80px 0px 70px 0px;
+}
