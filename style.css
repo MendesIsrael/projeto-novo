@@ -7,6 +7,12 @@
     }
 }
 
+p {
+    font: normal 16px arial;
+    color: #ffffff;
+    text-align: justify;
+    margin: 15px 0px;
+}
 *{margin: 0px; padding: 0px;}
 body {
     background-color: #770202;
