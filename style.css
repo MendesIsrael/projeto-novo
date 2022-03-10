@@ -61,3 +61,6 @@ header p {
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
 }
+section#imagem-principal {
+    background-image: url('../projeto-novo/imagens/fotoprincipal.jpg');
+}
