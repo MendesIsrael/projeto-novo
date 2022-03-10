@@ -26,6 +26,15 @@ header, main, footer {
     transition: .3s;
 }
 /*FORMATAÇÃO DO MENU*/
+
+#titulo-do-menu {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    line-height: 45px;
+}
 nav {
     background-color: rgba(0, 0, 0, 0.418);
     width: 250px;
@@ -36,6 +45,7 @@ nav {
     transition: .3s;
     overflow-y: auto;
     overflow-x: hidden;
+    font-family: sans-serif;
 }
 #menu {
     margin-top: 50px;
