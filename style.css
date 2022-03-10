@@ -50,17 +50,29 @@ nav {
     font-weight: bold;
 }
 /*FORMATAÇÃO DO CABECALHO*/
+header {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.658);
+}
 header h1 {
     font-family: 'Mea Culpa', cursive;
     font-family: 'Playfair Display', serif;
     font-size: 50px;
-    text-shadow: 2px 2px 0px rgba(255, 2, 2, 0.2);
+    text-shadow: 2px 2px 0px rgba(12, 0, 0, 0.322);
+    color: #ffffff;
 }
 header p {
     font-family: 'Mea Culpa', cursive;
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
+    color: #ffffff;
 }
-section#imagem-principal {
-    background-image: url('../projeto-novo/imagens/fotoprincipal.jpg');
+div#texto-principal {
+    text-align: center;
+}
+#imagem-principal {
+    height: 900px;
+    background-image: url('imagens/fotoprincipal.jpg');
+    background-position:  center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
